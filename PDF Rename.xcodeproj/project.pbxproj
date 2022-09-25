@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E267C28528D5729200B7CCCC /* pdf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = E267C28428D5729200B7CCCC /* pdf.min.js */; };
 		E269D36928D569EB00B3ABB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269D36828D569EB00B3ABB1 /* AppDelegate.swift */; };
 		E269D36D28D569EB00B3ABB1 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E269D36B28D569EB00B3ABB1 /* Main.html */; };
 		E269D36F28D569EB00B3ABB1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E269D36E28D569EB00B3ABB1 /* Icon.png */; };
@@ -25,6 +26,7 @@
 		E269D39428D569EC00B3ABB1 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E269D39328D569EC00B3ABB1 /* popup.html */; };
 		E269D39628D569EC00B3ABB1 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E269D39528D569EC00B3ABB1 /* popup.css */; };
 		E269D39828D569EC00B3ABB1 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E269D39728D569EC00B3ABB1 /* popup.js */; };
+		E2C600E128D574990051C41E /* pdf.worker.min.js in Resources */ = {isa = PBXBuildFile; fileRef = E2C600E028D574990051C41E /* pdf.worker.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E267C28428D5729200B7CCCC /* pdf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.min.js; sourceTree = "<group>"; };
 		E269D36528D569EB00B3ABB1 /* PDF Rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E269D36828D569EB00B3ABB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E269D36C28D569EB00B3ABB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		E269D39728D569EC00B3ABB1 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		E269D39928D569EC00B3ABB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E269D39A28D569EC00B3ABB1 /* PDF_Rename_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDF_Rename_Extension.entitlements; sourceTree = "<group>"; };
+		E2C600E028D574990051C41E /* pdf.worker.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.worker.min.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,8 +159,10 @@
 				E269D38928D569EC00B3ABB1 /* _locales */,
 				E269D38B28D569EC00B3ABB1 /* images */,
 				E269D38D28D569EC00B3ABB1 /* manifest.json */,
+				E267C28428D5729200B7CCCC /* pdf.min.js */,
 				E269D38F28D569EC00B3ABB1 /* background.js */,
 				E269D39128D569EC00B3ABB1 /* content.js */,
+				E2C600E028D574990051C41E /* pdf.worker.min.js */,
 				E269D39328D569EC00B3ABB1 /* popup.html */,
 				E269D39528D569EC00B3ABB1 /* popup.css */,
 				E269D39728D569EC00B3ABB1 /* popup.js */,
@@ -264,8 +270,10 @@
 				E269D38C28D569EC00B3ABB1 /* images in Resources */,
 				E269D38E28D569EC00B3ABB1 /* manifest.json in Resources */,
 				E269D38A28D569EC00B3ABB1 /* _locales in Resources */,
+				E2C600E128D574990051C41E /* pdf.worker.min.js in Resources */,
 				E269D39228D569EC00B3ABB1 /* content.js in Resources */,
 				E269D39828D569EC00B3ABB1 /* popup.js in Resources */,
+				E267C28528D5729200B7CCCC /* pdf.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

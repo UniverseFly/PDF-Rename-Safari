@@ -20,9 +20,16 @@
     },
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "js": [
+            "pdf.worker.min.js",
+            "pdf.min.js",
+        ],
+        "matches": [ "<all_urls>" ]
     }],
+    
+    "externally_connectable": {
+        "matches": [ "<all_urls>" ]
+    },
 
     "browser_action": {
         "default_popup": "popup.html",

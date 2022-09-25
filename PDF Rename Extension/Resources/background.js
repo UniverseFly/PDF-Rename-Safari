@@ -4,3 +4,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.greeting === "hello")
         sendResponse({ farewell: "goodbye" });
 });
+
+browser.runtime.onConnectExternal.addListener(function(port) {
+    console.log("Connection request received!");
+});
